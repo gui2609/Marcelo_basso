@@ -18,17 +18,18 @@ from sklearn.linear_model import LinearRegression
 # ============================================================================
 CLIENTE_ID = 2266958 # ID DO CLIENTE (GROWER_ID)
 CLIENTE_NOME = "Marcelo Borges Basso" # NOME DO CLIENTE
-ESTACOES_DO_CLIENTE =   {'name': 'Pla 6 / P.A Pista', 'id_estacao': '59061', 'latitude': -17.4949, 'longitude': -54.3052},
-    {'name': 'Pla 7 / P.A Reservatório', 'id_estacao': '59064', 'latitude': -17.43673, 'longitude': -54.27825},
+ESTACOES_DO_CLIENTE = [
+    {'name': 'Pla 6 / P.A Pista', 'id_estacao': '59061', 'latitude': -17.4949, 'longitude': -54.3052},
+    {'name': 'Pla 7 / P.A Reservatór', 'id_estacao': '59064', 'latitude': -17.43673, 'longitude': -54.27825},
     {'name': 'Pla 5 / Meio Portela', 'id_estacao': '59063', 'latitude': -17.399, 'longitude': -54.354},
     {'name': 'Pla 3 / VV Deserto', 'id_estacao': '59062', 'latitude': -17.471, 'longitude': -54.432},
-    {'name': 'Pla 1 / 106/107', 'id_estacao': '59065', 'latitude': -17.406, 'longitude': -54.31},
+    {'name': 'Pla 1 / 106/107', 'id_estacao': '59065', 'latitude': -17.406, 'longitude': -54.43},
     {'name': 'Pla 8 / Beira-Rio', 'id_estacao': '59066', 'latitude': -17.456, 'longitude': -54.5382},
-    {'name': 'Pla 9 / SN Cascalheira', 'id_estacao': '59179', 'latitude': -17.459, 'longitude': -54.5382},
+    {'name': 'Pla 9 / SN Cascalheira', 'id_estacao': '59179', 'latitude': -17.439, 'longitude': -54.62},
     {'name': 'Pla 2 / Chapéu', 'id_estacao': '59368', 'latitude': -17.4378, 'longitude': -54.4099},
     {'name': 'Pla 4 / Paraiso Sede', 'id_estacao': '59509', 'latitude': -17.3782, 'longitude': -54.4889},
-    {'name': 'Pla 11 / A.C Meio', 'id_estacao': '80340', 'latitude': -17.5339, 'longitude': -54.3444},
-    {'name': 'Pla 10 / Planalto Sede', 'id_estacao': '80339', 'latitude': -17.3922, 'longitude': -54.42},
+    {'name': 'Pla 11/ A.C Meio', 'id_estacao': '80340', 'latitude': -17.5339, 'longitude': -54.3444},
+    {'name': 'Pla 10 / Planalto Sede', 'id_estacao': '80339', 'latitude': -17.3922, 'longitude': -54.42}
 ]
 # Define quantos anos de dados históricos buscar
 ANOS_DE_HISTORICO = 1
@@ -1057,6 +1058,7 @@ if __name__ == "__main__":
         # Faz o script falhar para que o GitHub Actions reporte o erro
 
         exit(1)
+
 
 
 
