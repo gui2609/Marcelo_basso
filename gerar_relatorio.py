@@ -16,7 +16,7 @@ from sklearn.linear_model import LinearRegression
 # --- CONFIGURAÇÃO DO CLIENTE ---
 # ID e Estações do cliente "Marcelo Borges Basso"
 # ============================================================================
-CLIENTE_ID = 92088 # ID DO CLIENTE (GROWER_ID)
+CLIENTE_ID = 2266958 # ID DO CLIENTE (GROWER_ID)
 CLIENTE_NOME = "Marcelo Borges Basso" # NOME DO CLIENTE
 ESTACOES_DO_CLIENTE =   {'name': 'Pla 6 / P.A Pista', 'id_estacao': '59061', 'latitude': -17.4949, 'longitude': -54.3052},
     {'name': 'Pla 7 / P.A Reservatório', 'id_estacao': '59064', 'latitude': -17.43673, 'longitude': -54.27825},
@@ -1057,6 +1057,7 @@ if __name__ == "__main__":
         # Faz o script falhar para que o GitHub Actions reporte o erro
 
         exit(1)
+
 
 
 
